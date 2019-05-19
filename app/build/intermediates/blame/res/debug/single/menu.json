@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\androidprojects\\NotePad-master\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\editor_options_menu.xml",
+        "source": "F:\\androidprojects\\NotePad-master\\NotePad-master\\app\\src\\main\\res\\menu\\editor_options_menu.xml"
+    },
+    {
+        "merged": "F:\\androidprojects\\NotePad-master\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\list_options_menu.xml",
+        "source": "F:\\androidprojects\\NotePad-master\\NotePad-master\\app\\src\\main\\res\\menu\\list_options_menu.xml"
+    },
+    {
+        "merged": "F:\\androidprojects\\NotePad-master\\NotePad-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\list_context_menu.xml",
+        "source": "F:\\androidprojects\\NotePad-master\\NotePad-master\\app\\src\\main\\res\\menu\\list_context_menu.xml"
+    }
+]
