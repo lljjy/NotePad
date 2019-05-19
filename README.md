@@ -1,5 +1,5 @@
 # NotePad
-androi期中作业
+android期中作业
 
 https://github.com/lljjy/NotePad/blob/master/pictures/1.png
 
