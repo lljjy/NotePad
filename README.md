@@ -36,11 +36,6 @@ Date date = new Date(now);
 SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
 String dateTime = format.format(date);
 
-运行效果（修改主题后，界面颜色与之前不一样，下文会提到）：
-
-再添加一条笔记：
-
-修改第一条笔记：
 
 笔记查询（按标题查询） 要添加笔记查询功能，就要在应用中增加一个搜索的入口。找到菜单的xml文件，list_options_menu.xml，添加一个搜索的item，搜索图标用安卓自带的图标，设为总是显示：
 
@@ -59,7 +54,6 @@ case R.id.menu_search:
     intent.setClass(NotesList.this,NoteSearch.class);
     NotesList.this.startActivity(intent);
     return true;
-菜单：
 
 在case语句中写跳转activity代码之前要先写好搜索的activity，新建一个名为NoteSearch的activity。由于搜索出来的也是笔记列表，所以可以模仿NoteList的activity继承ListActivity。在安卓中有个用于搜索控件：SearchView，可以把SearchView跟ListView相结合，动态地显示搜索结果。
 
