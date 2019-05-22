@@ -37,15 +37,9 @@ SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
 String dateTime = format.format(date);
 
 
-笔记查询（按标题查询） 要添加笔记查询功能，就要在应用中增加一个搜索的入口。找到菜单的xml文件，list_options_menu.xml，添加一个搜索的item，搜索图标用安卓自带的图标，设为总是显示：
+笔记查询（按标题查询） 要添加笔记查询功能，就要在应用中增加一个搜索的入口。找到菜单的xml文件，list_options_menu.xml，添加一个搜索的item，搜索图标用安卓自带的图标，设为总是显示。
 
-<item
-    android:id="@+id/menu_search"
-    android:title="@string/menu_search"
-    android:icon="@android:drawable/ic_search_category_default"
-    android:showAsAction="always">
-</item>
-在NoteList中找到onOptionsItemSelected方法，在switch中添加搜索的case语句:
+在NoteList中找到onOptionsItemSelected方法，在switch中添加搜索的case语句。
 
 //添加搜素
 
@@ -74,6 +68,9 @@ String[] selectionArgs = { "%"+newText+"%" }; 1 最后要在AndroidManifest.xml�
         android:label="@string/title_notes_search">
     </activity>
 
+
+
+实验截图：
 
 ![image](https://github.com/lljjy/NotePad/blob/master/pictures/1.png)
 
